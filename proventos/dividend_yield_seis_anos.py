@@ -1,0 +1,1 @@
+#Esse algoritmo calcula o dividend yield dos últimos seis anos para uma ação específica, o ano atual não entra em consideração.

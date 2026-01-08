@@ -1,0 +1,1 @@
+#Esse algoritmo calcula o dividend yield dos últimos doze meses para uma ação específica.
