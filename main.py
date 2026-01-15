@@ -6,6 +6,8 @@ import crescimento.retorno_total_acionista
 import proventos.dividend_yield_doze_meses
 import proventos.dividend_yield_on_cost
 import proventos.dividend_yield_seis_anos
+import proventos.indice_cobertura_dividendos_caixa_basica
+import proventos.indice_cobertura_dividendos_caixa_conservadora
 
 import rentabilidade.margem_liquida
 import rentabilidade.roe
@@ -31,6 +33,8 @@ print("Seção de Proventos")
 print(f"Dividend Yield (12 meses): {proventos.dividend_yield_doze_meses.calcular_dividend_yield_doze_meses(1.8, 30)}%")
 print(f"Dividend Yield on Cost: {proventos.dividend_yield_on_cost.calcular_dividend_yield_on_cost(1.80, 20)}%")
 print(f"Dividend Yield (6 anos): {proventos.dividend_yield_seis_anos.calcular_dividend_yield_seis_anos(2.45, 40)}%")
+print(f"Índice de Cobertura de Dividendos Caixa Básica: {proventos.indice_cobertura_dividendos_caixa_basica.calcular_indice_cobertura_dividendos_caixa_basica(1000000, 600000)}")
+print(f"Índice de Cobertura de Dividendos Caixa Conservadora: {proventos.indice_cobertura_dividendos_caixa_conservadora.calcular_indice_cobertura_dividendos_caixa_conservadora(900000, 600000)}")
 print("")
 print("--------------------------------")
 
