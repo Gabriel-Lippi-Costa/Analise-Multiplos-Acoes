@@ -3,6 +3,7 @@ import crescimento.g_projetivo
 import crescimento.b
 import crescimento.retorno_total_acionista
 
+import proventos.dividend_payout
 import proventos.dividend_yield_doze_meses
 import proventos.dividend_yield_on_cost
 import proventos.dividend_yield_seis_anos
@@ -30,6 +31,7 @@ print("")
 print("--------------------------------")
 
 print("Seção de Proventos")
+print(f"Dividend Payout: {proventos.dividend_payout.calcular_dividend_payout(35000000, 100000000)}%")
 print(f"Dividend Yield (12 meses): {proventos.dividend_yield_doze_meses.calcular_dividend_yield_doze_meses(1.8, 30)}%")
 print(f"Dividend Yield on Cost: {proventos.dividend_yield_on_cost.calcular_dividend_yield_on_cost(1.80, 20)}%")
 print(f"Dividend Yield (6 anos): {proventos.dividend_yield_seis_anos.calcular_dividend_yield_seis_anos(2.45, 40)}%")
